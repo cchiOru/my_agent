@@ -1,3 +1,6 @@
+#path: main.py
+from dotenv import load_dotenv
+load_dotenv()
 from myagent.agent import root_agent
 
 def main():
